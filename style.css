@@ -1,0 +1,47 @@
+body,
+html {
+  /* Makes sure the body and html cover 100% of what we see on the screen */
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  /* This creates a size adaptable background that fixes the center of the image*/
+  background: url(investment_landing_page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: aliceblue;
+}
+hr {
+  border-color: rgb(255, 60, 0);
+  border-width: 3px;
+  max-width: 65px;
+}
+.buffer {
+  height: 35rem;
+}
+.btn {
+  /* transition: all 1s ease-in-out; */
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: rgb(255, 60, 0);
+  border-color: rgb(255, 60, 0);
+}
+
+.btn-primary:hover {
+  background-color: rgb(255, 17, 0);
+  border-color: rgb(255, 17, 0);
+  border-width: 4px;
+}
+
+/* .btn:hover {
+  transform: scale(1.1);
+} */
